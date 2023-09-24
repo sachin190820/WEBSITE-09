@@ -44,6 +44,23 @@
                 -moz-osx-font-smoothing: grayscale;
                 -o-font-smoothing: antialiased;
             }
+
+            .close-button-mobiles{
+            z-index: 101;
+            opacity: 0;
+            background-color: hsl(14, 83%, 52%);
+            border: 1px dashed #000;
+            margin-top: 24px;
+            margin-right: 24px;
+            padding: 4px 8px;
+            text-decoration: none;
+            display: none;
+            position: fixed;
+            top: 24px; /* Adjust this value to your preference */
+            bottom: auto;
+            left: auto;
+            right: 24px; /* Adjust this value to your preference */
+            }
         </style>
     </head>
     <body class="body-4">
@@ -539,7 +556,7 @@
                 )
             </div>
         </div>
-        <a data-w-id="1253f31d-c812-1055-11c8-d043ff29a775" href="#" class="close-button-mobile w-inline-block">
+        <a data-w-id="1253f31d-c812-1055-11c8-d043ff29a775" href="#" class="close-button-mobiles w-inline-block">
             <div class="close-button-text">Close</div>
         </a>
         <div data-w-id="6e2dd0a7-f993-f690-fb7e-d83ff778c04b" class="close-bg"></div>
